@@ -1,0 +1,462 @@
+<ContentPage x:Class="rebuy___buy_used_products__community_.payment_page"
+	xmlns="http://xamarin.com/schemas/2014/forms"
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	mc:Ignorable="d"
+	Title="payment_page">
+	<ContentPage.Content>
+		<ScrollView>
+		<AbsoluteLayout>
+
+
+
+
+			<AbsoluteLayout x:Name="page_payment_page_ek1"
+				 AbsoluteLayout.LayoutBounds="0,0,414,896"
+				 >
+
+				<BoxView x:Name="_bg__payment_page_ek2"
+					Color="#F5F5F5"
+					AbsoluteLayout.LayoutBounds="0,0,414,896" />
+
+				<AbsoluteLayout x:Name="cvv_entry"
+					 AbsoluteLayout.LayoutBounds="44,729,211,35"
+					 >
+
+					<Label x:Name="enter_cvv_"
+						FontFamily="Fira Sans"
+						FontAttributes="Bold"
+						FontSize="24"
+						TextColor="#3C3C3C"
+						AbsoluteLayout.LayoutBounds="0,3,128,46"
+						Text="Enter CVV:"
+					 />
+
+					<AbsoluteLayout x:Name="cvv_text_field"
+						 AbsoluteLayout.LayoutBounds="120,0,91,35"
+						 >
+
+						<BoxView x:Name="email_text_field"
+							CornerRadius="22"
+							Color="#DEDEDE"
+							AbsoluteLayout.LayoutBounds="0,0,91,35" />
+						<Label x:Name="cvv"
+							FontFamily="Fira Sans"
+							FontSize="24"
+							TextColor="#848484"
+							AbsoluteLayout.LayoutBounds="21,3,66,46"
+							Text="CVV"
+						 />
+					</AbsoluteLayout>
+
+				</AbsoluteLayout>
+
+
+				<AbsoluteLayout x:Name="card_selector"
+					 AbsoluteLayout.LayoutBounds="35,521,344,160"
+					 >
+
+
+					<AbsoluteLayout x:Name="card_1"
+						 AbsoluteLayout.LayoutBounds="0,0,280,160"
+						 >
+
+						<BoxView x:Name="rectangle_67"
+							CornerRadius="14"
+							Color="#ffffff"
+							AbsoluteLayout.LayoutBounds="0,0,280,160" > 
+													<!-- Effect support coming soon for Xamarin Forms -->
+						</BoxView>
+						<Label x:Name="credit_card"
+							FontFamily="Fira Sans"
+							FontAttributes="Bold"
+							FontSize="18"
+							TextColor="#FFFFFF"
+							AbsoluteLayout.LayoutBounds="31,20,119,37"
+							Text="Credit Card"
+						 />
+						<Image x:Name="mask_group"
+							Source="mask_group.png"
+							AbsoluteLayout.LayoutBounds="0,0,280,160" />
+						<Label x:Name="xxxx_xxxx_xxxx_1234"
+							FontFamily="Chathura"
+							FontAttributes="Bold"
+							FontSize="20"
+							TextColor="#FFFFFF"
+							AbsoluteLayout.LayoutBounds="31,118,191,46"
+							Text="XXXX XXXX XXXX 1234"
+						 />
+						<Label x:Name="alice_eve"
+							FontFamily="Chathura"
+							FontAttributes="Bold"
+							FontSize="20"
+							TextColor="#FFFFFF"
+							AbsoluteLayout.LayoutBounds="31,96,94,46"
+							Text="ALICE EVE"
+						 />
+						<Label x:Name="_12_25"
+							FontFamily="Chathura"
+							FontAttributes="Bold"
+							FontSize="20"
+							TextColor="#FFFFFF"
+							AbsoluteLayout.LayoutBounds="165,96,57,46"
+							Text="12/25"
+						 />
+
+						<AbsoluteLayout x:Name="chip"
+							 AbsoluteLayout.LayoutBounds="31,68,38,26"
+							 >
+
+							<BoxView x:Name="rectangle_69"
+								CornerRadius="5"
+								Color="#FFF8E2"
+								AbsoluteLayout.LayoutBounds="0,0,38,26" />
+							<BoxView x:Name="line_16"
+								Color="#FFE483"
+								AbsoluteLayout.LayoutBounds="0,18,12,1" />
+							<BoxView x:Name="line_22"
+								Color="#FFE483"
+								AbsoluteLayout.LayoutBounds="25,18,13,1" />
+							<Image x:Name="line_19"
+								Source="line_19.png"
+								AbsoluteLayout.LayoutBounds="15,16,20,0" />
+							<Image x:Name="line_23"
+								Source="line_23.png"
+								AbsoluteLayout.LayoutBounds="23,2,4,0" />
+							<BoxView x:Name="line_20"
+								Color="#FFE483"
+								AbsoluteLayout.LayoutBounds="0,13,26,1" />
+							<BoxView x:Name="line_17"
+								Color="#FFE483"
+								AbsoluteLayout.LayoutBounds="0,9,12,1" />
+							<BoxView x:Name="line_21"
+								Color="#FFE483"
+								AbsoluteLayout.LayoutBounds="25,9,13,1" />
+						</AbsoluteLayout>
+
+					</AbsoluteLayout>
+
+
+					<AbsoluteLayout x:Name="card_2"
+						 AbsoluteLayout.LayoutBounds="293,0,280,160"
+						 >
+
+
+						<AbsoluteLayout x:Name="group_45"
+							 AbsoluteLayout.LayoutBounds="0,0,280,160"
+							 >
+
+							<BoxView x:Name="rectangle_68"
+								CornerRadius="14"
+								Color="#ffffff"
+								AbsoluteLayout.LayoutBounds="0,0,280,160" > 
+															<!-- Effect support coming soon for Xamarin Forms -->
+							</BoxView>
+							<Image x:Name="mask_group_ek1"
+								Source="mask_group_ek1.png"
+								AbsoluteLayout.LayoutBounds="0,0,280,160" />
+							<Label x:Name="credit_card_ek1"
+								FontFamily="Fira Sans"
+								FontAttributes="Bold"
+								FontSize="18"
+								TextColor="#FFFFFF"
+								AbsoluteLayout.LayoutBounds="31,20,119,37"
+								Text="Credit Card"
+							 />
+							<Label x:Name="xxxx_xxxx_xxxx_5678"
+								FontFamily="Chathura"
+								FontAttributes="Bold"
+								FontSize="20"
+								TextColor="#FFFFFF"
+								AbsoluteLayout.LayoutBounds="31,118,191,46"
+								Text="XXXX XXXX XXXX 5678"
+							 />
+							<Label x:Name="alice_eve_ek1"
+								FontFamily="Chathura"
+								FontAttributes="Bold"
+								FontSize="20"
+								TextColor="#FFFFFF"
+								AbsoluteLayout.LayoutBounds="31,96,94,46"
+								Text="ALICE EVE"
+							 />
+							<Label x:Name="_12_28"
+								FontFamily="Chathura"
+								FontAttributes="Bold"
+								FontSize="20"
+								TextColor="#FFFFFF"
+								AbsoluteLayout.LayoutBounds="165,96,57,46"
+								Text="12/28"
+							 />
+
+							<AbsoluteLayout x:Name="chip_ek1"
+								 AbsoluteLayout.LayoutBounds="31,68,38,26"
+								 >
+
+								<BoxView x:Name="rectangle_69_ek1"
+									CornerRadius="5"
+									Color="#FFF8E2"
+									AbsoluteLayout.LayoutBounds="0,0,38,26" />
+								<BoxView x:Name="line_16_ek1"
+									Color="#FFE483"
+									AbsoluteLayout.LayoutBounds="0,18,12,1" />
+								<BoxView x:Name="line_22_ek1"
+									Color="#FFE483"
+									AbsoluteLayout.LayoutBounds="25,18,13,1" />
+								<Image x:Name="line_19_ek1"
+									Source="line_19_ek1.png"
+									AbsoluteLayout.LayoutBounds="15,16,20,0" />
+								<Image x:Name="line_23_ek1"
+									Source="line_23_ek1.png"
+									AbsoluteLayout.LayoutBounds="23,2,4,0" />
+								<BoxView x:Name="line_20_ek1"
+									Color="#FFE483"
+									AbsoluteLayout.LayoutBounds="0,13,26,1" />
+								<BoxView x:Name="line_17_ek1"
+									Color="#FFE483"
+									AbsoluteLayout.LayoutBounds="0,9,12,1" />
+								<BoxView x:Name="line_21_ek1"
+									Color="#FFE483"
+									AbsoluteLayout.LayoutBounds="25,9,13,1" />
+							</AbsoluteLayout>
+
+						</AbsoluteLayout>
+
+					</AbsoluteLayout>
+
+				</AbsoluteLayout>
+
+
+				<AbsoluteLayout x:Name="selected_card_indicator"
+					 AbsoluteLayout.LayoutBounds="291,510,31,31"
+					 >
+
+					<BoxView x:Name="select_circle"
+						Color="#1EB124"
+						AbsoluteLayout.LayoutBounds="0,0,31,31" />
+					<Image x:Name="vector_ek42"
+						Source="vector_ek42.png"
+						AbsoluteLayout.LayoutBounds="9,12,13.09,9" />
+				</AbsoluteLayout>
+
+				<Label x:Name="select_card"
+					FontFamily="Fira Sans"
+					FontAttributes="Bold"
+					FontSize="24"
+					TextColor="#3C3C3C"
+					AbsoluteLayout.LayoutBounds="35,474,372,48"
+					Text="Select card"
+				 />
+
+				<AbsoluteLayout x:Name="payment_summary"
+					 AbsoluteLayout.LayoutBounds="35,221,344,225"
+					 >
+
+					<BoxView x:Name="rectangle_66"
+						CornerRadius="12"
+						Color="#FFFFFF"
+						AbsoluteLayout.LayoutBounds="0,0,344,225" />
+					<Label x:Name="shure_podcast_microphone"
+						FontFamily="Fira Sans"
+						FontAttributes="Bold"
+						FontSize="20"
+						TextColor="#3C3C3C"
+						AbsoluteLayout.LayoutBounds="19,23,274,38"
+						Text="Shure podcast microphone"
+					 />
+					<Label x:Name="make__shure___year__2020_ek2"
+						FontFamily="Fira Sans"
+						FontSize="16"
+						TextColor="#4E4E4E"
+						AbsoluteLayout.LayoutBounds="19,54,248,30"
+						Text="Make: Shure | Year: 2020"
+					 />
+					<Label x:Name="payment_details"
+						FontFamily="Fira Sans"
+						FontAttributes="Bold"
+						FontSize="20"
+						TextColor="#3C3C3C"
+						AbsoluteLayout.LayoutBounds="19,93,319,45"
+						Text="Payment details"
+					 />
+
+					<AbsoluteLayout x:Name="product_cost"
+						 AbsoluteLayout.LayoutBounds="31,125,290,22"
+						 >
+
+						<Label x:Name="product_cost__ek1"
+							FontFamily="Fira Sans"
+							FontSize="18"
+							TextColor="#5F5F5F"
+							AbsoluteLayout.LayoutBounds="0,0,134,35"
+							Text="Product cost:"
+						 />
+						<Label x:Name="___24_999_ek3"
+							FontFamily="Fira Sans"
+							HorizontalTextAlignment="Right"
+							FontSize="18"
+							TextColor="#5F5F5F"
+							AbsoluteLayout.LayoutBounds="167,0,134,35"
+							Text=" 24,999"
+						 />
+					</AbsoluteLayout>
+
+
+					<AbsoluteLayout x:Name="shipping_fee_ek1"
+						 AbsoluteLayout.LayoutBounds="31,150,290,22"
+						 >
+
+						<Label x:Name="___150_ek1"
+							FontFamily="Fira Sans"
+							HorizontalTextAlignment="Right"
+							FontSize="18"
+							TextColor="#5F5F5F"
+							AbsoluteLayout.LayoutBounds="167,0,134,35"
+							Text=" 150"
+						 />
+						<Label x:Name="shipping_fee__ek1"
+							FontFamily="Fira Sans"
+							FontSize="18"
+							TextColor="#5F5F5F"
+							AbsoluteLayout.LayoutBounds="0,0,134,35"
+							Text="Shipping fee:"
+						 />
+					</AbsoluteLayout>
+
+
+					<AbsoluteLayout x:Name="total_cost"
+						 AbsoluteLayout.LayoutBounds="31,180,290,22"
+						 >
+
+						<Label x:Name="___25_149_ek1"
+							FontFamily="Fira Sans"
+							FontAttributes="Bold"
+							HorizontalTextAlignment="Right"
+							FontSize="18"
+							TextColor="#5F5F5F"
+							AbsoluteLayout.LayoutBounds="167,0,134,35"
+							Text=" 25,149"
+						 />
+						<Label x:Name="total__ek1"
+							FontFamily="Fira Sans"
+							FontAttributes="Bold"
+							FontSize="18"
+							TextColor="#5F5F5F"
+							AbsoluteLayout.LayoutBounds="0,0,134,35"
+							Text="Total:"
+						 />
+					</AbsoluteLayout>
+
+				</AbsoluteLayout>
+
+
+				<AbsoluteLayout x:Name="progress_indicator"
+					 AbsoluteLayout.LayoutBounds="98,149,218,30"
+					 >
+
+					<BoxView x:Name="ellipse_44_ek1"
+						Color="#FF5A5F"
+						AbsoluteLayout.LayoutBounds="0,0,40,40" />
+					<BoxView x:Name="ellipse_45_ek1"
+						Color="#ffffff"
+						AbsoluteLayout.LayoutBounds="188,0,40,40" />
+					<BoxView x:Name="line_14_ek1"
+						Color="#FF5A5F"
+						AbsoluteLayout.LayoutBounds="28,18,69,5" />
+					<BoxView x:Name="line_15_ek1"
+						Color="#FF5A5F"
+						AbsoluteLayout.LayoutBounds="122,18,70,5" />
+
+					<AbsoluteLayout x:Name="group_43"
+						 AbsoluteLayout.LayoutBounds="94,0,30,30"
+						 >
+
+						<BoxView x:Name="ellipse_46_ek1"
+							Color="#FF5A5F"
+							AbsoluteLayout.LayoutBounds="0,0,30,30" />
+						<BoxView x:Name="ellipse_47_ek1"
+							Color="#FF5A5F"
+							AbsoluteLayout.LayoutBounds="8,8,22.5,22.5" />
+					</AbsoluteLayout>
+
+				</AbsoluteLayout>
+
+				<Label x:Name="rebuy_ek2"
+					FontFamily="Dosis"
+					FontAttributes="Bold"
+					HorizontalTextAlignment="Center"
+					FontSize="32"
+					TextColor="#3C3C3C"
+					AbsoluteLayout.LayoutBounds="269,64,126,69"
+					Text="ReBuy"
+				 />
+
+				<AbsoluteLayout x:Name="back_button_ek4"
+					 AbsoluteLayout.LayoutBounds="35,64,46,46"
+					 >
+
+					<Image x:Name="vector_ek43"
+						Source="vector_ek43.png"
+						AbsoluteLayout.LayoutBounds="20,16,6.9,13.8" />
+					<BoxView x:Name="rectangle_3_ek4"
+						CornerRadius="12"
+						Color="#ffffff"
+						AbsoluteLayout.LayoutBounds="0,0,48,48" />
+				</AbsoluteLayout>
+
+
+				<AbsoluteLayout x:Name="pay_now_btn"
+					 AbsoluteLayout.LayoutBounds="0,817,414,79"
+					 >
+
+					<BoxView x:Name="rectangle_62_ek2"
+						Color="#FF5A5F"
+						AbsoluteLayout.LayoutBounds="0,0,414,79" />
+					<Label x:Name="pay_now"
+						FontFamily="Fira Sans"
+						FontAttributes="Bold"
+						HorizontalTextAlignment="Center"
+						FontSize="24"
+						TextColor="#EBEBEB"
+						AbsoluteLayout.LayoutBounds="64,25,295,54"
+						Text="Pay now"
+					 />
+				</AbsoluteLayout>
+
+			</AbsoluteLayout>
+
+
+
+
+
+
+
+
+
+			<AbsoluteLayout x:Name="color_palette"
+				 AbsoluteLayout.LayoutBounds="45,104,580,100"
+				 >
+
+				<BoxView x:Name="__087e8b"
+					Color="#087E8B"
+					AbsoluteLayout.LayoutBounds="240,240,100,100" />
+				<BoxView x:Name="__ff5a5f"
+					Color="#FF5A5F"
+					AbsoluteLayout.LayoutBounds="240,120,100,100" />
+				<BoxView x:Name="__3c3c3c"
+					Color="#3C3C3C"
+					AbsoluteLayout.LayoutBounds="240,0,100,100" />
+				<BoxView x:Name="__f5f5f5"
+					Color="#F5F5F5"
+					AbsoluteLayout.LayoutBounds="240,-120,100,100" />
+				<BoxView x:Name="__c1839f"
+					Color="#C1839F"
+					AbsoluteLayout.LayoutBounds="240,-240,100,100" />
+			</AbsoluteLayout>
+
+		</AbsoluteLayout>
+
+		</ScrollView>
+
+	</ContentPage.Content>
+</ContentPage>

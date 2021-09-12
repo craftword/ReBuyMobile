@@ -1,0 +1,227 @@
+<ContentPage x:Class="rebuy___buy_used_products__community_.signup"
+	xmlns="http://xamarin.com/schemas/2014/forms"
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	mc:Ignorable="d"
+	Title="signup">
+	<ContentPage.Content>
+		<ScrollView>
+		<AbsoluteLayout>
+
+
+
+
+
+
+
+
+
+
+			<AbsoluteLayout x:Name="page_signup_ek1"
+				 AbsoluteLayout.LayoutBounds="0,0,414,896"
+				 >
+
+				<BoxView x:Name="_bg__signup_ek2"
+					Color="#F5F5F5"
+					AbsoluteLayout.LayoutBounds="0,0,414,896" />
+				<BoxView x:Name="logo_circle_ek1"
+					Color="#F5F5F5"
+					AbsoluteLayout.LayoutBounds="-296,-52,1007,1007" />
+				<Label x:Name="_already_have_an_account__log_in"
+					FontFamily="Arial"
+					HorizontalTextAlignment="Center"
+					FontSize="18"
+					TextColor="#8D8D8D"
+					AbsoluteLayout.LayoutBounds="70,768,282,34"
+					Text="Already have an account? Log in"
+				 />
+
+				<AbsoluteLayout x:Name="login_form_ek1"
+					 AbsoluteLayout.LayoutBounds="35,455,344,281"
+					 >
+
+					<BoxView x:Name="email_text_field_ek3"
+						CornerRadius="22"
+						Color="#DEDEDE"
+						AbsoluteLayout.LayoutBounds="0,75,344,57" />
+					<BoxView x:Name="email_text_field_ek4"
+						CornerRadius="22"
+						Color="#DEDEDE"
+						AbsoluteLayout.LayoutBounds="0,0,344,57" />
+					<BoxView x:Name="password_text_field_ek1"
+						CornerRadius="22"
+						Color="#DEDEDE"
+						AbsoluteLayout.LayoutBounds="0,150,344,57" />
+					<Label x:Name="email_ek2"
+						FontFamily="Dubai"
+						FontSize="18"
+						TextColor="#6E6E6E"
+						AbsoluteLayout.LayoutBounds="26,90,55,43"
+						Text="Email"
+					 />
+					<Label x:Name="name_ek1"
+						FontFamily="Dubai"
+						FontSize="18"
+						TextColor="#6E6E6E"
+						AbsoluteLayout.LayoutBounds="27,15,58,43"
+						Text="Name"
+					 />
+					<Label x:Name="password_ek1"
+						FontFamily="Dubai"
+						FontSize="18"
+						TextColor="#6E6E6E"
+						AbsoluteLayout.LayoutBounds="26,165,84,43"
+						Text="Password"
+					 />
+					<BoxView x:Name="login_button_ek1"
+						CornerRadius="22"
+						Color="#ffffff"
+						AbsoluteLayout.LayoutBounds="0,225,344,56" > 
+											<!-- Effect support coming soon for Xamarin Forms -->
+					</BoxView>
+					<Label x:Name="create_account"
+						FontFamily="Dubai"
+						FontAttributes="Bold"
+						HorizontalTextAlignment="Center"
+						FontSize="24"
+						TextColor="#F5F5F5"
+						AbsoluteLayout.LayoutBounds="91,233,170,58"
+						Text="Create account"
+					 />
+				</AbsoluteLayout>
+
+
+				<AbsoluteLayout x:Name="_____or_____ek1"
+					 AbsoluteLayout.LayoutBounds="45,396,324,14"
+					 >
+
+					<BoxView x:Name="line_1_ek1"
+						Color="#6E6E6E"
+						AbsoluteLayout.LayoutBounds="174,7,150,1" />
+					<BoxView x:Name="line_2_ek1"
+						Color="#555555"
+						AbsoluteLayout.LayoutBounds="0,7,150,1" />
+					<Label x:Name="or_ek1"
+						FontFamily="Arial"
+						HorizontalTextAlignment="Center"
+						FontSize="12"
+						TextColor="#818181"
+						AbsoluteLayout.LayoutBounds="153,0,25,22"
+						Text="Or"
+					 />
+				</AbsoluteLayout>
+
+
+				<AbsoluteLayout x:Name="social_login_ek1"
+					 AbsoluteLayout.LayoutBounds="35,294,344,57"
+					 >
+
+					<BoxView x:Name="google_container_ek1"
+						CornerRadius="22"
+						Color="#DEDEDE"
+						AbsoluteLayout.LayoutBounds="0,0,105,57" />
+					<BoxView x:Name="twitter_container_ek1"
+						CornerRadius="22"
+						Color="#DEDEDE"
+						AbsoluteLayout.LayoutBounds="119,0,105,57" />
+					<BoxView x:Name="apple_containter_ek1"
+						CornerRadius="22"
+						Color="#DEDEDE"
+						AbsoluteLayout.LayoutBounds="239,0,105,57" />
+
+					<AbsoluteLayout x:Name="google_ek2"
+						 AbsoluteLayout.LayoutBounds="39,16,26,26"
+						 >
+
+						<Image x:Name="vector_ek109"
+							Source="vector_ek109.png"
+							AbsoluteLayout.LayoutBounds="0,0,26,26" />
+						<Image x:Name="vector_ek110"
+							Source="vector_ek110.png"
+							AbsoluteLayout.LayoutBounds="2,0,20.35,10.08" />
+						<Image x:Name="vector_ek111"
+							Source="vector_ek111.png"
+							AbsoluteLayout.LayoutBounds="1,16,20.29,10.36" />
+						<Image x:Name="vector_ek112"
+							Source="vector_ek112.png"
+							AbsoluteLayout.LayoutBounds="13,10,13,12.24" />
+					</AbsoluteLayout>
+
+					<Image x:Name="apple_ek1"
+						Source="apple_ek1.png"
+						AbsoluteLayout.LayoutBounds="281,16,21.84,26" />
+					<Image x:Name="twitter_ek1"
+						Source="twitter_ek1.png"
+						AbsoluteLayout.LayoutBounds="156,16,31.78,26" />
+				</AbsoluteLayout>
+
+				<Label x:Name="sign_up_with_one_of_the_following_options"
+					FontFamily="Arial"
+					FontSize="14"
+					TextColor="#818181"
+					AbsoluteLayout.LayoutBounds="35,258,263,26"
+					Text="Sign up with one of the following options"
+				 />
+				<Label x:Name="sign_up"
+					FontFamily="Dosis"
+					FontAttributes="Bold"
+					FontSize="48"
+					TextColor="#3C3C3C"
+					AbsoluteLayout.LayoutBounds="35,167,176,95"
+					Text="Sign up"
+				 />
+				<Label x:Name="rebuy_ek6"
+					FontFamily="Dosis"
+					FontAttributes="Bold"
+					HorizontalTextAlignment="Center"
+					FontSize="32"
+					TextColor="#3C3C3C"
+					AbsoluteLayout.LayoutBounds="269,64,126,69"
+					Text="ReBuy"
+				 />
+
+				<AbsoluteLayout x:Name="back_button_ek10"
+					 AbsoluteLayout.LayoutBounds="35,64,46,46"
+					 >
+
+					<Image x:Name="vector_ek113"
+						Source="vector_ek113.png"
+						AbsoluteLayout.LayoutBounds="20,16,6.9,13.8" />
+					<BoxView x:Name="rectangle_3_ek10"
+						CornerRadius="12"
+						Color="#ffffff"
+						AbsoluteLayout.LayoutBounds="0,0,48,48" />
+				</AbsoluteLayout>
+
+			</AbsoluteLayout>
+
+
+
+			<AbsoluteLayout x:Name="color_palette"
+				 AbsoluteLayout.LayoutBounds="45,104,580,100"
+				 >
+
+				<BoxView x:Name="__087e8b"
+					Color="#087E8B"
+					AbsoluteLayout.LayoutBounds="240,240,100,100" />
+				<BoxView x:Name="__ff5a5f"
+					Color="#FF5A5F"
+					AbsoluteLayout.LayoutBounds="240,120,100,100" />
+				<BoxView x:Name="__3c3c3c"
+					Color="#3C3C3C"
+					AbsoluteLayout.LayoutBounds="240,0,100,100" />
+				<BoxView x:Name="__f5f5f5"
+					Color="#F5F5F5"
+					AbsoluteLayout.LayoutBounds="240,-120,100,100" />
+				<BoxView x:Name="__c1839f"
+					Color="#C1839F"
+					AbsoluteLayout.LayoutBounds="240,-240,100,100" />
+			</AbsoluteLayout>
+
+		</AbsoluteLayout>
+
+		</ScrollView>
+
+	</ContentPage.Content>
+</ContentPage>

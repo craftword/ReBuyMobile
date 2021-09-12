@@ -1,0 +1,243 @@
+<ContentPage x:Class="rebuy___buy_used_products__community_.side_bar"
+	xmlns="http://xamarin.com/schemas/2014/forms"
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	mc:Ignorable="d"
+	Title="side_bar">
+	<ContentPage.Content>
+		<ScrollView>
+		<AbsoluteLayout>
+
+
+
+
+
+
+
+
+			<AbsoluteLayout x:Name="page_side_bar_ek1"
+				 AbsoluteLayout.LayoutBounds="0,0,414,896"
+				 >
+
+				<BoxView x:Name="_bg__side_bar_ek2"
+					Color="#F5F5F5"
+					AbsoluteLayout.LayoutBounds="0,0,414,896" />
+
+				<AbsoluteLayout x:Name="sign_out_btn"
+					 AbsoluteLayout.LayoutBounds="215,650,165,44"
+					 >
+
+					<BoxView x:Name="_rectangle_33"
+						CornerRadius="12"
+						Color="#3C3C3C"
+						AbsoluteLayout.LayoutBounds="0,0,165,44" />
+					<Label x:Name="sign_out"
+						FontFamily="Fira Sans"
+						FontSize="18"
+						TextColor="#F5F5F5"
+						AbsoluteLayout.LayoutBounds="49,11,82,35"
+						Text="Sign out"
+					 />
+				</AbsoluteLayout>
+
+
+				<AbsoluteLayout x:Name="feedback_btn"
+					 AbsoluteLayout.LayoutBounds="34,650,165,44"
+					 >
+
+					<BoxView x:Name="rectangle_34"
+						CornerRadius="12"
+						Color="#ffffff"
+						AbsoluteLayout.LayoutBounds="0,0,169,48" />
+					<Label x:Name="feedback"
+						FontFamily="Fira Sans"
+						FontSize="18"
+						TextColor="#3C3C3C"
+						AbsoluteLayout.LayoutBounds="44,11,92,35"
+						Text="Feedback"
+					 />
+				</AbsoluteLayout>
+
+
+				<AbsoluteLayout x:Name="my_account"
+					 AbsoluteLayout.LayoutBounds="34,192,346,88"
+					 >
+
+					<BoxView x:Name="_rectangle_29"
+						CornerRadius="22"
+						Color="#D4E4E6"
+						AbsoluteLayout.LayoutBounds="0,0,346,88" />
+					<Image x:Name="vector_ek74"
+						Source="vector_ek74.png"
+						AbsoluteLayout.LayoutBounds="29,30,26.84,30" />
+					<Label x:Name="my_account_ek1"
+						FontFamily="Fira Sans"
+						FontSize="24"
+						TextColor="#5E5E5E"
+						AbsoluteLayout.LayoutBounds="81,22,141,46"
+						Text="My Account"
+					 />
+					<Label x:Name="edit_you_details__account_settings"
+						FontFamily="Arial"
+						FontSize="13"
+						TextColor="#5E5E5E"
+						AbsoluteLayout.LayoutBounds="81,41,202,37.5"
+						Text="Edit you details, account settings "
+					 />
+				</AbsoluteLayout>
+
+
+				<AbsoluteLayout x:Name="my_orders_ek4"
+					 AbsoluteLayout.LayoutBounds="34,300,346,88"
+					 >
+
+					<BoxView x:Name="_rectangle_30"
+						CornerRadius="22"
+						Color="#D4E4E6"
+						AbsoluteLayout.LayoutBounds="0,0,346,88" />
+					<Image x:Name="vector_ek75"
+						Source="vector_ek75.png"
+						AbsoluteLayout.LayoutBounds="29,29,27,30" />
+					<Label x:Name="my_orders_ek5"
+						FontFamily="Fira Sans"
+						FontSize="24"
+						TextColor="#5E5E5E"
+						AbsoluteLayout.LayoutBounds="81,22,128,46"
+						Text="My Orders"
+					 />
+					<Label x:Name="view_all_your_orders"
+						FontFamily="Arial"
+						FontSize="13"
+						TextColor="#5E5E5E"
+						AbsoluteLayout.LayoutBounds="81,51,127,24.5"
+						Text="View all your orders"
+					 />
+				</AbsoluteLayout>
+
+
+				<AbsoluteLayout x:Name="my_listing_ek3"
+					 AbsoluteLayout.LayoutBounds="34,408,346,88"
+					 >
+
+					<BoxView x:Name="_rectangle_31"
+						CornerRadius="22"
+						Color="#D4E4E6"
+						AbsoluteLayout.LayoutBounds="0,0,346,88" />
+					<Image x:Name="vector_ek76"
+						Source="vector_ek76.png"
+						AbsoluteLayout.LayoutBounds="29,34,27,20" />
+					<Label x:Name="my_listings_ek1"
+						FontFamily="Fira Sans"
+						FontSize="24"
+						TextColor="#5E5E5E"
+						AbsoluteLayout.LayoutBounds="81,22,139,46"
+						Text="My Listings"
+					 />
+					<Label x:Name="view_your_product_listing_for_sale"
+						FontFamily="Arial"
+						FontSize="13"
+						TextColor="#5E5E5E"
+						AbsoluteLayout.LayoutBounds="81,50,200,24.5"
+						Text="View your product listing for sale"
+					 />
+				</AbsoluteLayout>
+
+
+				<AbsoluteLayout x:Name="liked_items_ek5"
+					 AbsoluteLayout.LayoutBounds="34,516,346,88"
+					 >
+
+					<BoxView x:Name="_rectangle_32"
+						CornerRadius="22"
+						Color="#D4E4E6"
+						AbsoluteLayout.LayoutBounds="0,0,346,88" />
+					<Image x:Name="vector_ek77"
+						Source="vector_ek77.png"
+						AbsoluteLayout.LayoutBounds="25,28,34.4,30" />
+					<Label x:Name="liked_items_ek6"
+						FontFamily="Fira Sans"
+						FontSize="24"
+						TextColor="#5E5E5E"
+						AbsoluteLayout.LayoutBounds="81,22,143,46"
+						Text="Liked Items"
+					 />
+					<Label x:Name="see_the_products_you_have_wishlisted"
+						FontFamily="Arial"
+						FontSize="13"
+						TextColor="#5E5E5E"
+						AbsoluteLayout.LayoutBounds="81,50,227,24.5"
+						Text="See the products you have wishlisted"
+					 />
+				</AbsoluteLayout>
+
+				<Image x:Name="vector_ek78"
+					Source="vector_ek78.png"
+					AbsoluteLayout.LayoutBounds="353,75,33,33" />
+				<Label x:Name="rebuy_ek4"
+					FontFamily="Dosis"
+					FontAttributes="Bold"
+					HorizontalTextAlignment="Center"
+					FontSize="32"
+					TextColor="#3C3C3C"
+					AbsoluteLayout.LayoutBounds="20,71,126,69"
+					Text="ReBuy"
+				 />
+
+				<AbsoluteLayout x:Name="waves"
+					 AbsoluteLayout.LayoutBounds="0,801,414,95"
+					 >
+
+					<Image x:Name="vector_ek79"
+						Source="vector_ek79.png"
+						AbsoluteLayout.LayoutBounds="0,33,414,62" />
+					<Image x:Name="vector_ek80"
+						Source="vector_ek80.png"
+						AbsoluteLayout.LayoutBounds="0,0,414,74.59" />
+					<Image x:Name="vector_ek81"
+						Source="vector_ek81.png"
+						AbsoluteLayout.LayoutBounds="0,15,414,56" />
+				</AbsoluteLayout>
+
+				<Label x:Name="rebuy_inc__version_1_0"
+					FontFamily="Fira Sans"
+					FontSize="10"
+					TextColor="#F5F5F5"
+					AbsoluteLayout.LayoutBounds="157,873,109,19"
+					Text="ReBuy Inc. Version 1.0"
+				 />
+			</AbsoluteLayout>
+
+
+
+
+
+
+
+			<AbsoluteLayout x:Name="color_palette"
+				 AbsoluteLayout.LayoutBounds="45,104,580,100"
+				 >
+
+				<BoxView x:Name="__087e8b"
+					Color="#087E8B"
+					AbsoluteLayout.LayoutBounds="240,240,100,100" />
+				<BoxView x:Name="__ff5a5f"
+					Color="#FF5A5F"
+					AbsoluteLayout.LayoutBounds="240,120,100,100" />
+				<BoxView x:Name="__3c3c3c"
+					Color="#3C3C3C"
+					AbsoluteLayout.LayoutBounds="240,0,100,100" />
+				<BoxView x:Name="__f5f5f5"
+					Color="#F5F5F5"
+					AbsoluteLayout.LayoutBounds="240,-120,100,100" />
+				<BoxView x:Name="__c1839f"
+					Color="#C1839F"
+					AbsoluteLayout.LayoutBounds="240,-240,100,100" />
+			</AbsoluteLayout>
+
+		</AbsoluteLayout>
+
+		</ScrollView>
+
+	</ContentPage.Content>
+</ContentPage>

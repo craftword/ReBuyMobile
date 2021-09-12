@@ -1,0 +1,495 @@
+<ContentPage x:Class="rebuy___buy_used_products__community_.my_listing"
+	xmlns="http://xamarin.com/schemas/2014/forms"
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	mc:Ignorable="d"
+	Title="my_listing">
+	<ContentPage.Content>
+		<ScrollView>
+		<AbsoluteLayout>
+
+
+
+
+
+
+			<AbsoluteLayout x:Name="page_my_listing_ek1"
+				 AbsoluteLayout.LayoutBounds="0,0,414,896"
+				 >
+
+				<BoxView x:Name="_bg__my_listing_ek2"
+					Color="#F5F5F5"
+					AbsoluteLayout.LayoutBounds="0,0,414,896" />
+
+				<AbsoluteLayout x:Name="listings"
+					 AbsoluteLayout.LayoutBounds="32,142,349,700"
+					 >
+
+
+					<AbsoluteLayout x:Name="pagination_ek2"
+						 AbsoluteLayout.LayoutBounds="113,631,123,23"
+						 >
+
+						<BoxView x:Name="rectangle_21_ek2"
+							CornerRadius="3"
+							Color="#ffffff"
+							AbsoluteLayout.LayoutBounds="0,1,23,23" />
+						<BoxView x:Name="rectangle_22_ek2"
+							CornerRadius="3"
+							Color="#ffffff"
+							AbsoluteLayout.LayoutBounds="33,0,25,25" />
+						<BoxView x:Name="rectangle_23_ek2"
+							CornerRadius="3"
+							Color="#ffffff"
+							AbsoluteLayout.LayoutBounds="68,1,23,23" />
+						<BoxView x:Name="rectangle_24_ek2"
+							CornerRadius="3"
+							Color="#ffffff"
+							AbsoluteLayout.LayoutBounds="102,1,23,23" />
+						<Label x:Name="_1_ek2"
+							FontFamily="Fira Sans"
+							FontSize="14"
+							TextColor="#000000"
+							AbsoluteLayout.LayoutBounds="41,3,19,29"
+							Text="1"
+						 />
+						<Label x:Name="_2_ek2"
+							FontFamily="Fira Sans"
+							FontSize="14"
+							TextColor="#6E6E6E"
+							AbsoluteLayout.LayoutBounds="75,4,19,27"
+							Text="2"
+						 />
+						<Image x:Name="vector_ek46"
+							Source="vector_ek46.png"
+							AbsoluteLayout.LayoutBounds="8,7,4,8.45" />
+						<Image x:Name="vector_ek47"
+							Source="vector_ek47.png"
+							AbsoluteLayout.LayoutBounds="111,7,4,8.45" />
+					</AbsoluteLayout>
+
+
+					<AbsoluteLayout x:Name="product_list"
+						 AbsoluteLayout.LayoutBounds="0,0,349,610"
+						 >
+
+
+						<AbsoluteLayout x:Name="p5_ek2"
+							 AbsoluteLayout.LayoutBounds="0,248,349,114"
+							 >
+
+							<BoxView x:Name="rectangle_18_ek2"
+								CornerRadius="12"
+								Opacity="0.1"
+								Color="#077D8B"
+								AbsoluteLayout.LayoutBounds="0,0,349,114" />
+							<BoxView x:Name="rectangle_19_ek2"
+								CornerRadius="12"
+								Color="#C4C4C4"
+								AbsoluteLayout.LayoutBounds="12,12,90,90" />
+							<Label x:Name="amazon_alexa"
+								FontFamily="Fira Sans"
+								FontAttributes="Bold"
+								FontSize="18"
+								TextColor="#606060"
+								AbsoluteLayout.LayoutBounds="124,22,128,35"
+								Text="Amazon Alexa"
+							 />
+							<Label x:Name="_14_apr_2021"
+								FontFamily="Fira Sans"
+								FontSize="18"
+								TextColor="#C1839F"
+								AbsoluteLayout.LayoutBounds="200,79,104,35"
+								Text="14 Apr 2021"
+							 />
+							<Label x:Name="___999_ek2"
+								FontFamily="Fira Sans"
+								FontSize="18"
+								TextColor="#087E8B"
+								AbsoluteLayout.LayoutBounds="124,79,57,35"
+								Text=" 999"
+							 />
+							<BoxView x:Name="ellipse_8_ek1"
+								Opacity="0.7"
+								Color="#FFFFFF"
+								AbsoluteLayout.LayoutBounds="309,74,30,30" />
+							<Label x:Name="views__2_2k"
+								FontFamily="Fira Sans"
+								FontSize="16"
+								TextColor="#606060"
+								AbsoluteLayout.LayoutBounds="124,50,92,30"
+								Text="Views: 2.2K"
+							 />
+							<Image x:Name="vector_ek48"
+								Source="vector_ek48.png"
+								AbsoluteLayout.LayoutBounds="316,81,16,16" />
+						</AbsoluteLayout>
+
+
+						<AbsoluteLayout x:Name="p4_ek2"
+							 AbsoluteLayout.LayoutBounds="0,372,349,114"
+							 >
+
+							<BoxView x:Name="rectangle_15_ek2"
+								CornerRadius="12"
+								Opacity="0.3"
+								Color="#808080"
+								AbsoluteLayout.LayoutBounds="0,0,349,114" />
+							<Image x:Name="rectangle_16_ek2"
+								Source="rectangle_16_ek2.png"
+								Opacity="0.6"
+								AbsoluteLayout.LayoutBounds="12,12,90,90" />
+							<Label x:Name="lg_monitor"
+								FontFamily="Fira Sans"
+								FontAttributes="Bold"
+								FontSize="18"
+								TextColor="#606060"
+								AbsoluteLayout.LayoutBounds="124,22,103,35"
+								Text="LG Monitor"
+							 />
+							<Label x:Name="_13_apr_2021"
+								FontFamily="Fira Sans"
+								FontSize="18"
+								TextColor="#C1839F"
+								AbsoluteLayout.LayoutBounds="200,79,104,35"
+								Text="13 Apr 2021"
+							 />
+							<Label x:Name="___9_100_ek2"
+								FontFamily="Fira Sans"
+								FontSize="18"
+								TextColor="#087E8B"
+								AbsoluteLayout.LayoutBounds="124,79,69,35"
+								Text=" 9,100"
+							 />
+							<BoxView x:Name="ellipse_7_ek1"
+								Opacity="0.7"
+								Color="#FFFFFF"
+								AbsoluteLayout.LayoutBounds="309,74,30,30" />
+							<Label x:Name="views__2_6k"
+								FontFamily="Fira Sans"
+								FontSize="16"
+								TextColor="#606060"
+								AbsoluteLayout.LayoutBounds="124,50,92,30"
+								Text="Views: 2.6K"
+							 />
+							<Label x:Name="hidden"
+								FontFamily="Fira Sans"
+								FontSize="16"
+								TextColor="#929292"
+								AbsoluteLayout.LayoutBounds="214,50,66,30"
+								Text="Hidden"
+							 />
+							<Image x:Name="vector_ek49"
+								Source="vector_ek49.png"
+								AbsoluteLayout.LayoutBounds="316,83,16.5,12" />
+						</AbsoluteLayout>
+
+
+						<AbsoluteLayout x:Name="p3_ek2"
+							 AbsoluteLayout.LayoutBounds="0,496,349,114"
+							 >
+
+							<BoxView x:Name="rectangle_12_ek2"
+								CornerRadius="12"
+								Opacity="0.1"
+								Color="#078B1C"
+								AbsoluteLayout.LayoutBounds="0,0,349,114" />
+							<BoxView x:Name="rectangle_13_ek2"
+								CornerRadius="12"
+								Color="#C4C4C4"
+								AbsoluteLayout.LayoutBounds="12,12,90,90" />
+							<Label x:Name="google_home_mini"
+								FontFamily="Fira Sans"
+								FontAttributes="Bold"
+								FontSize="18"
+								TextColor="#606060"
+								AbsoluteLayout.LayoutBounds="124,22,163,35"
+								Text="Google Home Mini"
+							 />
+							<Label x:Name="_12_apr_2021"
+								FontFamily="Fira Sans"
+								FontSize="18"
+								TextColor="#749E71"
+								AbsoluteLayout.LayoutBounds="200,79,104,35"
+								Text="12 Apr 2021"
+							 />
+							<Label x:Name="___1_299_ek2"
+								FontFamily="Fira Sans"
+								FontSize="18"
+								TextColor="#128B07"
+								AbsoluteLayout.LayoutBounds="124,79,69,35"
+								Text=" 1,299"
+							 />
+							<BoxView x:Name="ellipse_6_ek3"
+								Opacity="0.7"
+								Color="#FFFFFF"
+								AbsoluteLayout.LayoutBounds="309,74,30,30" />
+							<Label x:Name="views__3_5k"
+								FontFamily="Fira Sans"
+								FontSize="16"
+								TextColor="#606060"
+								AbsoluteLayout.LayoutBounds="124,50,92,30"
+								Text="Views: 3.5K"
+							 />
+							<Label x:Name="sold"
+								FontFamily="Fira Sans"
+								FontSize="16"
+								TextColor="#009E06"
+								AbsoluteLayout.LayoutBounds="214,50,46,30"
+								Text="Sold"
+							 />
+							<Image x:Name="vector_ek50"
+								Source="vector_ek50.png"
+								AbsoluteLayout.LayoutBounds="309,74,30,30" />
+						</AbsoluteLayout>
+
+
+						<AbsoluteLayout x:Name="p2_ek2"
+							 AbsoluteLayout.LayoutBounds="0,124,349,114"
+							 >
+
+							<BoxView x:Name="rectangle_10_ek2"
+								CornerRadius="12"
+								Opacity="0.1"
+								Color="#077D8B"
+								AbsoluteLayout.LayoutBounds="0,0,349,114" />
+							<BoxView x:Name="rectangle_11_ek2"
+								CornerRadius="12"
+								Color="#C4C4C4"
+								AbsoluteLayout.LayoutBounds="12,12,90,90" />
+							<Label x:Name="macbook_air"
+								FontFamily="Fira Sans"
+								FontAttributes="Bold"
+								FontSize="18"
+								TextColor="#606060"
+								AbsoluteLayout.LayoutBounds="124,20,116,35"
+								Text="MacBook Air"
+							 />
+							<Label x:Name="_20_apr_2021"
+								FontFamily="Fira Sans"
+								FontSize="18"
+								TextColor="#C1839F"
+								AbsoluteLayout.LayoutBounds="200,77,106,35"
+								Text="20 Apr 2021"
+							 />
+							<Label x:Name="___45_499"
+								FontFamily="Fira Sans"
+								FontSize="18"
+								TextColor="#087E8B"
+								AbsoluteLayout.LayoutBounds="124,77,79,35"
+								Text=" 45,499"
+							 />
+							<BoxView x:Name="ellipse_5_ek1"
+								Opacity="0.7"
+								Color="#FFFFFF"
+								AbsoluteLayout.LayoutBounds="309,74,30,30" />
+							<Label x:Name="views__1_8k"
+								FontFamily="Fira Sans"
+								FontSize="16"
+								TextColor="#606060"
+								AbsoluteLayout.LayoutBounds="124,50,92,30"
+								Text="Views: 1.8K"
+							 />
+							<BoxView x:Name="rectangle_59"
+								CornerRadius="12"
+								Color="#F5F5F5"
+								AbsoluteLayout.LayoutBounds="206,50,45,18" />
+							<Label x:Name="_1_ek3"
+								FontFamily="Fira Sans"
+								FontAttributes="Bold"
+								FontSize="14"
+								TextColor="#3C3C3C"
+								AbsoluteLayout.LayoutBounds="235,51,19,27"
+								Text="1"
+							 />
+							<Image x:Name="vector_ek51"
+								Source="vector_ek51.png"
+								AbsoluteLayout.LayoutBounds="316,81,16,16" />
+							<Image x:Name="vector_ek52"
+								Source="vector_ek52.png"
+								AbsoluteLayout.LayoutBounds="216,54,12.5,10" />
+						</AbsoluteLayout>
+
+
+						<AbsoluteLayout x:Name="p1_ek2"
+							 AbsoluteLayout.LayoutBounds="0,0,349,114"
+							 >
+
+							<BoxView x:Name="rectangle_7_ek2"
+								CornerRadius="12"
+								Opacity="0.1"
+								Color="#077D8B"
+								AbsoluteLayout.LayoutBounds="0,0,349,114" />
+							<BoxView x:Name="rectangle_8_ek2"
+								CornerRadius="12"
+								Color="#C4C4C4"
+								AbsoluteLayout.LayoutBounds="12,12,90,90" />
+							<Label x:Name="jabra_wireless_earbuds"
+								FontFamily="Fira Sans"
+								FontAttributes="Bold"
+								FontSize="18"
+								TextColor="#606060"
+								AbsoluteLayout.LayoutBounds="124,20,202,35"
+								Text="Jabra Wireless Earbuds"
+							 />
+							<Label x:Name="_03_may_2021"
+								FontFamily="Fira Sans"
+								FontSize="18"
+								TextColor="#C1839F"
+								AbsoluteLayout.LayoutBounds="200,77,110,35"
+								Text="03 May 2021"
+							 />
+							<Label x:Name="___8_999_ek2"
+								FontFamily="Fira Sans"
+								FontSize="18"
+								TextColor="#087E8B"
+								AbsoluteLayout.LayoutBounds="124,77,71,35"
+								Text=" 8,999"
+							 />
+							<BoxView x:Name="ellipse_4_ek5"
+								Opacity="0.7"
+								Color="#FFFFFF"
+								AbsoluteLayout.LayoutBounds="309,74,30,30" />
+							<Label x:Name="views__1k"
+								FontFamily="Fira Sans"
+								FontSize="16"
+								TextColor="#606060"
+								AbsoluteLayout.LayoutBounds="124,50,79,30"
+								Text="Views: 1K"
+							 />
+							<BoxView x:Name="rectangle_58"
+								CornerRadius="12"
+								Color="#F5F5F5"
+								AbsoluteLayout.LayoutBounds="206,50,45,18" />
+							<Label x:Name="_3"
+								FontFamily="Fira Sans"
+								FontAttributes="Bold"
+								FontSize="14"
+								TextColor="#3C3C3C"
+								AbsoluteLayout.LayoutBounds="235,51,20,27"
+								Text="3"
+							 />
+							<Image x:Name="vector_ek53"
+								Source="vector_ek53.png"
+								AbsoluteLayout.LayoutBounds="316,81,16,16" />
+							<Image x:Name="vector_ek54"
+								Source="vector_ek54.png"
+								AbsoluteLayout.LayoutBounds="216,54,12.5,10" />
+						</AbsoluteLayout>
+
+					</AbsoluteLayout>
+
+				</AbsoluteLayout>
+
+				<Label x:Name="my_listings"
+					FontFamily="Fira Sans"
+					FontAttributes="Bold"
+					FontSize="32"
+					TextColor="#3C3C3C"
+					AbsoluteLayout.LayoutBounds="102,67,251,62"
+					Text="My Listings"
+				 />
+
+				<AbsoluteLayout x:Name="hamburger_ek2"
+					 AbsoluteLayout.LayoutBounds="353,75,33,33"
+					 >
+
+
+					<AbsoluteLayout x:Name="hamber_ek2"
+						 AbsoluteLayout.LayoutBounds="4.13,8.25,24.75,16.5"
+						 >
+
+						<Image x:Name="vector_ek55"
+							Source="vector_ek55.png"
+							AbsoluteLayout.LayoutBounds="0,8,24.75,0" />
+						<Image x:Name="vector_ek56"
+							Source="vector_ek56.png"
+							AbsoluteLayout.LayoutBounds="0,0,24.75,0" />
+						<Image x:Name="vector_ek57"
+							Source="vector_ek57.png"
+							AbsoluteLayout.LayoutBounds="0,17,24.75,0" />
+					</AbsoluteLayout>
+
+				</AbsoluteLayout>
+
+
+				<AbsoluteLayout x:Name="back_button_ek6"
+					 AbsoluteLayout.LayoutBounds="35,64,46,46"
+					 >
+
+					<Image x:Name="vector_ek58"
+						Source="vector_ek58.png"
+						AbsoluteLayout.LayoutBounds="20,16,6.9,13.8" />
+					<BoxView x:Name="rectangle_3_ek6"
+						CornerRadius="12"
+						Color="#ffffff"
+						AbsoluteLayout.LayoutBounds="0,0,48,48" />
+				</AbsoluteLayout>
+
+
+				<AbsoluteLayout x:Name="navbar_ek2"
+					 AbsoluteLayout.LayoutBounds="15,822,384,54"
+					 >
+
+					<BoxView x:Name="rectangle_25_ek2"
+						CornerRadius="22"
+						Color="#3C3C3C"
+						AbsoluteLayout.LayoutBounds="0,0,384,54" />
+					<Image x:Name="_vector_ek59"
+						Source="_vector_ek59.png"
+						AbsoluteLayout.LayoutBounds="259,16,20.9,18.23" />
+					<BoxView x:Name="ellipse_6_ek4"
+						Color="#F5F5F5"
+						AbsoluteLayout.LayoutBounds="165,0,64,64" />
+					<Image x:Name="_vector_ek60"
+						Source="_vector_ek60.png"
+						AbsoluteLayout.LayoutBounds="181,16,22,18" />
+					<Image x:Name="_vector_ek61"
+						Source="_vector_ek61.png"
+						AbsoluteLayout.LayoutBounds="105,15,20,20" />
+					<Image x:Name="_vector_ek62"
+						Source="_vector_ek62.png"
+						AbsoluteLayout.LayoutBounds="334,16,18,18" />
+					<Image x:Name="_vector_ek63"
+						Source="_vector_ek63.png"
+						AbsoluteLayout.LayoutBounds="30,15,18,20" />
+				</AbsoluteLayout>
+
+			</AbsoluteLayout>
+
+
+
+
+
+
+
+
+
+			<AbsoluteLayout x:Name="color_palette"
+				 AbsoluteLayout.LayoutBounds="45,104,580,100"
+				 >
+
+				<BoxView x:Name="__087e8b"
+					Color="#087E8B"
+					AbsoluteLayout.LayoutBounds="240,240,100,100" />
+				<BoxView x:Name="__ff5a5f"
+					Color="#FF5A5F"
+					AbsoluteLayout.LayoutBounds="240,120,100,100" />
+				<BoxView x:Name="__3c3c3c"
+					Color="#3C3C3C"
+					AbsoluteLayout.LayoutBounds="240,0,100,100" />
+				<BoxView x:Name="__f5f5f5"
+					Color="#F5F5F5"
+					AbsoluteLayout.LayoutBounds="240,-120,100,100" />
+				<BoxView x:Name="__c1839f"
+					Color="#C1839F"
+					AbsoluteLayout.LayoutBounds="240,-240,100,100" />
+			</AbsoluteLayout>
+
+		</AbsoluteLayout>
+
+		</ScrollView>
+
+	</ContentPage.Content>
+</ContentPage>

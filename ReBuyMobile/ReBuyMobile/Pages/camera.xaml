@@ -1,0 +1,143 @@
+<ContentPage x:Class="rebuy___buy_used_products__community_.camera"
+	xmlns="http://xamarin.com/schemas/2014/forms"
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	mc:Ignorable="d"
+	Title="camera">
+	<ContentPage.Content>
+		<ScrollView>
+		<AbsoluteLayout>
+
+
+
+
+
+
+
+
+			<AbsoluteLayout x:Name="page_camera_ek1"
+				 AbsoluteLayout.LayoutBounds="0,0,414,896"
+				 >
+
+				<BoxView x:Name="_bg__camera_ek2"
+					Color="#F5F5F5"
+					AbsoluteLayout.LayoutBounds="0,0,414,896" />
+				<BoxView x:Name="cam_field"
+					Color="#C4C4C4"
+					AbsoluteLayout.LayoutBounds="0,0,414,766" />
+
+				<AbsoluteLayout x:Name="control_panel"
+					 AbsoluteLayout.LayoutBounds="0,766,414,130"
+					 >
+
+					<BoxView x:Name="bottom_black_bar"
+						Color="#000000"
+						AbsoluteLayout.LayoutBounds="0,0,414,130" />
+
+					<AbsoluteLayout x:Name="shutter_btn"
+						 AbsoluteLayout.LayoutBounds="166,24,82,82"
+						 >
+
+						<BoxView x:Name="ellipse_7_ek2"
+							Color="#FBFBFB"
+							AbsoluteLayout.LayoutBounds="0,0,82,82" />
+						<BoxView x:Name="ellipse_8_ek2"
+							Color="#FBFBFB"
+							AbsoluteLayout.LayoutBounds="8,8,74,74" />
+					</AbsoluteLayout>
+
+
+					<AbsoluteLayout x:Name="close_btn"
+						 AbsoluteLayout.LayoutBounds="318,39,52,52"
+						 >
+
+						<BoxView x:Name="ellipse_9"
+							Color="#ffffff"
+							AbsoluteLayout.LayoutBounds="0,0,56,56" />
+						<Image x:Name="_vector_ek72"
+							Source="_vector_ek72.png"
+							AbsoluteLayout.LayoutBounds="15,15,22,22" />
+					</AbsoluteLayout>
+
+
+					<AbsoluteLayout x:Name="select_from_gallery_btn"
+						 AbsoluteLayout.LayoutBounds="44,39,52,52"
+						 >
+
+						<BoxView x:Name="ellipse_10"
+							Color="#ffffff"
+							AbsoluteLayout.LayoutBounds="0,0,56,56" />
+						<Image x:Name="vector_ek73"
+							Source="vector_ek73.png"
+							AbsoluteLayout.LayoutBounds="15,15,22,22" />
+					</AbsoluteLayout>
+
+				</AbsoluteLayout>
+
+
+				<AbsoluteLayout x:Name="focus_selector"
+					 AbsoluteLayout.LayoutBounds="180,356,54,54"
+					 >
+
+					<BoxView x:Name="line_6"
+						Color="#FFFFFF"
+						AbsoluteLayout.LayoutBounds="30,1,24,2" />
+					<BoxView x:Name="line_7"
+						Color="#FFFFFF"
+						AbsoluteLayout.LayoutBounds="30,54,24,2" />
+					<BoxView x:Name="line_8"
+						Color="#FFFFFF"
+						AbsoluteLayout.LayoutBounds="2,54,24,2" />
+					<BoxView x:Name="line_9"
+						Color="#FFFFFF"
+						AbsoluteLayout.LayoutBounds="0,1,24,2" />
+					<BoxView x:Name="line_10"
+						Color="#FFFFFF"
+						AbsoluteLayout.LayoutBounds="42,41,24,2" />
+					<BoxView x:Name="line_11"
+						Color="#FFFFFF"
+						AbsoluteLayout.LayoutBounds="43,13,23,2" />
+					<BoxView x:Name="line_12"
+						Color="#FFFFFF"
+						AbsoluteLayout.LayoutBounds="-10,42,24,2" />
+					<BoxView x:Name="line_13"
+						Color="#FFFFFF"
+						AbsoluteLayout.LayoutBounds="-10,12,24,2" />
+				</AbsoluteLayout>
+
+			</AbsoluteLayout>
+
+
+
+
+
+
+
+			<AbsoluteLayout x:Name="color_palette"
+				 AbsoluteLayout.LayoutBounds="45,104,580,100"
+				 >
+
+				<BoxView x:Name="__087e8b"
+					Color="#087E8B"
+					AbsoluteLayout.LayoutBounds="240,240,100,100" />
+				<BoxView x:Name="__ff5a5f"
+					Color="#FF5A5F"
+					AbsoluteLayout.LayoutBounds="240,120,100,100" />
+				<BoxView x:Name="__3c3c3c"
+					Color="#3C3C3C"
+					AbsoluteLayout.LayoutBounds="240,0,100,100" />
+				<BoxView x:Name="__f5f5f5"
+					Color="#F5F5F5"
+					AbsoluteLayout.LayoutBounds="240,-120,100,100" />
+				<BoxView x:Name="__c1839f"
+					Color="#C1839F"
+					AbsoluteLayout.LayoutBounds="240,-240,100,100" />
+			</AbsoluteLayout>
+
+		</AbsoluteLayout>
+
+		</ScrollView>
+
+	</ContentPage.Content>
+</ContentPage>

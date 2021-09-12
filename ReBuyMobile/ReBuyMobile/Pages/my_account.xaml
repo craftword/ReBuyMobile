@@ -1,0 +1,269 @@
+<ContentPage x:Class="rebuy___buy_used_products__community_.my_account"
+	xmlns="http://xamarin.com/schemas/2014/forms"
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	mc:Ignorable="d"
+	Title="my_account">
+	<ContentPage.Content>
+		<ScrollView>
+		<AbsoluteLayout>
+
+
+
+
+
+
+
+
+
+
+			<AbsoluteLayout x:Name="page_my_account_ek3"
+				 AbsoluteLayout.LayoutBounds="0,0,414,896"
+				 >
+
+				<BoxView x:Name="_bg__my_account_ek4"
+					Color="#F5F5F5"
+					AbsoluteLayout.LayoutBounds="0,0,414,896" />
+
+				<AbsoluteLayout x:Name="settings_btn"
+					 AbsoluteLayout.LayoutBounds="32,705,165,44"
+					 >
+
+					<BoxView x:Name="rectangle_34_ek1"
+						CornerRadius="12"
+						Color="#ffffff"
+						AbsoluteLayout.LayoutBounds="0,0,169,48" />
+					<Label x:Name="settings"
+						FontFamily="Fira Sans"
+						FontSize="18"
+						TextColor="#3C3C3C"
+						AbsoluteLayout.LayoutBounds="66,11,82,35"
+						Text="Settings"
+					 />
+					<Image x:Name="vector_ek99"
+						Source="vector_ek99.png"
+						AbsoluteLayout.LayoutBounds="36,11,22,22" />
+				</AbsoluteLayout>
+
+
+				<AbsoluteLayout x:Name="name"
+					 AbsoluteLayout.LayoutBounds="32,245,349,71"
+					 >
+
+
+					<AbsoluteLayout x:Name="name_text_field"
+						 AbsoluteLayout.LayoutBounds="0,28,349,43"
+						 >
+
+						<BoxView x:Name="rectangle_6"
+							CornerRadius="12"
+							Color="#E9E9E9"
+							AbsoluteLayout.LayoutBounds="0,0,349,43" />
+						<Label x:Name="alice_eve_ek2"
+							FontFamily="Fira Sans"
+							FontSize="18"
+							TextColor="#646464"
+							AbsoluteLayout.LayoutBounds="20,10,84,35"
+							Text="Alice Eve"
+						 />
+						<Image x:Name="vector_ek100"
+							Source="vector_ek100.png"
+							AbsoluteLayout.LayoutBounds="314,11,18,18" />
+					</AbsoluteLayout>
+
+					<Label x:Name="name_"
+						FontFamily="Fira Sans"
+						FontSize="18"
+						TextColor="#3C3C3C"
+						AbsoluteLayout.LayoutBounds="1,0,66,35"
+						Text="Name:"
+					 />
+				</AbsoluteLayout>
+
+
+				<AbsoluteLayout x:Name="email"
+					 AbsoluteLayout.LayoutBounds="32,337,349,71"
+					 >
+
+
+					<AbsoluteLayout x:Name="email_text_field_ek1"
+						 AbsoluteLayout.LayoutBounds="0,28,349,43"
+						 >
+
+						<BoxView x:Name="rectangle_6_ek1"
+							CornerRadius="12"
+							Color="#E9E9E9"
+							AbsoluteLayout.LayoutBounds="0,0,349,43" />
+						<Label x:Name="alice_eve_gmail_com"
+							FontFamily="Fira Sans"
+							FontSize="18"
+							TextColor="#646464"
+							AbsoluteLayout.LayoutBounds="20,10,183,35"
+							Text="alice.eve@gmail.com"
+						 />
+						<Image x:Name="vector_ek101"
+							Source="vector_ek101.png"
+							AbsoluteLayout.LayoutBounds="314,11,18,18" />
+					</AbsoluteLayout>
+
+					<Label x:Name="email_"
+						FontFamily="Fira Sans"
+						FontSize="18"
+						TextColor="#3C3C3C"
+						AbsoluteLayout.LayoutBounds="1,0,64,35"
+						Text="Email:"
+					 />
+				</AbsoluteLayout>
+
+
+				<AbsoluteLayout x:Name="phone"
+					 AbsoluteLayout.LayoutBounds="32,429,349,71"
+					 >
+
+
+					<AbsoluteLayout x:Name="phone_text_field"
+						 AbsoluteLayout.LayoutBounds="0,28,349,43"
+						 >
+
+						<BoxView x:Name="rectangle_6_ek2"
+							CornerRadius="12"
+							Color="#E9E9E9"
+							AbsoluteLayout.LayoutBounds="0,0,349,43" />
+						<Label x:Name="__1_561_230_0033"
+							FontFamily="Fira Sans"
+							FontSize="18"
+							TextColor="#646464"
+							AbsoluteLayout.LayoutBounds="20,10,137,35"
+							Text="+1 561-230-0033"
+						 />
+						<Image x:Name="vector_ek102"
+							Source="vector_ek102.png"
+							AbsoluteLayout.LayoutBounds="314,11,18,18" />
+					</AbsoluteLayout>
+
+					<Label x:Name="phone_"
+						FontFamily="Fira Sans"
+						FontSize="18"
+						TextColor="#3C3C3C"
+						AbsoluteLayout.LayoutBounds="1,0,70,35"
+						Text="Phone:"
+					 />
+				</AbsoluteLayout>
+
+
+				<AbsoluteLayout x:Name="address"
+					 AbsoluteLayout.LayoutBounds="32,521,349,152"
+					 >
+
+
+					<AbsoluteLayout x:Name="address_text_field"
+						 AbsoluteLayout.LayoutBounds="0,28,349,124"
+						 >
+
+						<BoxView x:Name="rectangle_6_ek3"
+							CornerRadius="12"
+							Color="#E9E9E9"
+							AbsoluteLayout.LayoutBounds="0,0,349,124" />
+						<Label x:Name="alice_eve_2074__half_and_half_drive_hialeah__florida___33012_p_h___1_561_230_0033"
+							FontFamily="Fira Sans"
+							FontSize="18"
+							TextColor="#646464"
+							AbsoluteLayout.LayoutBounds="20,18,210,101"
+							Text="Alice Eve
+2074, Half and Half Drive
+Hialeah, Florida - 33012
+P  h: +1 561-230-0033"
+						 />
+						<Image x:Name="vector_ek103"
+							Source="vector_ek103.png"
+							AbsoluteLayout.LayoutBounds="314,89,18,18" />
+					</AbsoluteLayout>
+
+					<Label x:Name="address_"
+						FontFamily="Fira Sans"
+						FontSize="18"
+						TextColor="#3C3C3C"
+						AbsoluteLayout.LayoutBounds="1,0,84,35"
+						Text="Address:"
+					 />
+				</AbsoluteLayout>
+
+				<Label x:Name="my_account_ek5"
+					FontFamily="Fira Sans"
+					FontAttributes="Bold"
+					FontSize="24"
+					TextColor="#3C3C3C"
+					AbsoluteLayout.LayoutBounds="27,196,209,51"
+					Text="My account"
+				 />
+				<Image x:Name="_close_"
+					Source="_close_.png"
+					AbsoluteLayout.LayoutBounds="353,75,33,33" />
+
+				<AbsoluteLayout x:Name="user_details"
+					 AbsoluteLayout.LayoutBounds="151,69,230,51"
+					 >
+
+					<Label x:Name="alice_eve_ek3"
+						FontFamily="Fira Sans"
+						FontSize="32"
+						TextColor="#FF5A5F"
+						AbsoluteLayout.LayoutBounds="0,0,251,62"
+						Text="Alice Eve"
+					 />
+					<Label x:Name="alice_eve_gmail_com_ek1"
+						FontFamily="Fira Sans"
+						FontSize="14"
+						TextColor="#969696"
+						AbsoluteLayout.LayoutBounds="0,34,143,27"
+						Text="alice.eve@gmail.com"
+					 />
+				</AbsoluteLayout>
+
+
+				<AbsoluteLayout x:Name="profile_pic"
+					 AbsoluteLayout.LayoutBounds="30,47,96,96"
+					 >
+
+					<BoxView x:Name="user_image"
+						Color="#C4C4C4"
+						AbsoluteLayout.LayoutBounds="2,2,91,91" />
+					<BoxView x:Name="ellipse_1"
+						Color="#ffffff"
+						AbsoluteLayout.LayoutBounds="0,0,100,100" />
+				</AbsoluteLayout>
+
+			</AbsoluteLayout>
+
+
+
+
+
+			<AbsoluteLayout x:Name="color_palette"
+				 AbsoluteLayout.LayoutBounds="45,104,580,100"
+				 >
+
+				<BoxView x:Name="__087e8b"
+					Color="#087E8B"
+					AbsoluteLayout.LayoutBounds="240,240,100,100" />
+				<BoxView x:Name="__ff5a5f"
+					Color="#FF5A5F"
+					AbsoluteLayout.LayoutBounds="240,120,100,100" />
+				<BoxView x:Name="__3c3c3c"
+					Color="#3C3C3C"
+					AbsoluteLayout.LayoutBounds="240,0,100,100" />
+				<BoxView x:Name="__f5f5f5"
+					Color="#F5F5F5"
+					AbsoluteLayout.LayoutBounds="240,-120,100,100" />
+				<BoxView x:Name="__c1839f"
+					Color="#C1839F"
+					AbsoluteLayout.LayoutBounds="240,-240,100,100" />
+			</AbsoluteLayout>
+
+		</AbsoluteLayout>
+
+		</ScrollView>
+
+	</ContentPage.Content>
+</ContentPage>

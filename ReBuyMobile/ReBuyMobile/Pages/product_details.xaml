@@ -1,0 +1,580 @@
+<ContentPage x:Class="rebuy___buy_used_products__community_.product_details"
+	xmlns="http://xamarin.com/schemas/2014/forms"
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	mc:Ignorable="d"
+	Title="product_details">
+	<ContentPage.Content>
+		<ScrollView>
+		<AbsoluteLayout>
+
+
+
+
+			<AbsoluteLayout x:Name="page_product_details_ek1"
+				 AbsoluteLayout.LayoutBounds="0,0,414,896"
+				 >
+
+				<BoxView x:Name="_bg__product_details_ek2"
+					Color="#F5F5F5"
+					AbsoluteLayout.LayoutBounds="0,0,414,896" />
+
+				<AbsoluteLayout x:Name="similar_products"
+					 AbsoluteLayout.LayoutBounds="0,770,414,399"
+					 >
+
+
+					<AbsoluteLayout x:Name="group_31"
+						 AbsoluteLayout.LayoutBounds="27,14,1132,246"
+						 >
+
+
+						<AbsoluteLayout x:Name="group_26"
+							 AbsoluteLayout.LayoutBounds="576,0,268,246"
+							 >
+
+
+							<AbsoluteLayout x:Name="group_22"
+								 AbsoluteLayout.LayoutBounds="0,0,268,246"
+								 >
+
+								<BoxView x:Name="rectangle_60"
+									CornerRadius="12"
+									Color="#F5F5F5"
+									AbsoluteLayout.LayoutBounds="0,0,268,246" > 
+																	<!-- Effect support coming soon for Xamarin Forms -->
+								</BoxView>
+								<Image x:Name="product_thumbnail"
+									Source="product_thumbnail.png"
+									AbsoluteLayout.LayoutBounds="0,0,268,174" />
+								<Label x:Name="golf_clubs"
+									FontFamily="Fira Sans"
+									FontSize="18"
+									TextColor="#3C3C3C"
+									AbsoluteLayout.LayoutBounds="15,189,160,33"
+									Text="Golf clubs"
+								 />
+								<Label x:Name="_2017___golfy"
+									FontFamily="Fira Sans"
+									FontSize="14"
+									TextColor="#C1839F"
+									AbsoluteLayout.LayoutBounds="15,212,158,25"
+									Text="2017 | Golfy"
+								 />
+
+								<AbsoluteLayout x:Name="save_item"
+									 AbsoluteLayout.LayoutBounds="228,134,30,30"
+									 >
+
+									<BoxView x:Name="ellipse_4_ek1"
+										Opacity="0.7"
+										Color="#FFFFFF"
+										AbsoluteLayout.LayoutBounds="0,0,30,30" />
+									<Image x:Name="vector_ek28"
+										Source="vector_ek28.png"
+										AbsoluteLayout.LayoutBounds="6,8,18,15.7" />
+								</AbsoluteLayout>
+
+								<Label x:Name="___74_299"
+									FontFamily="Fira Sans"
+									FontAttributes="Bold"
+									HorizontalTextAlignment="Right"
+									FontSize="24"
+									TextColor="#3C3C3C"
+									AbsoluteLayout.LayoutBounds="157,198,105,46"
+									Text=" 74,299"
+								 />
+							</AbsoluteLayout>
+
+						</AbsoluteLayout>
+
+
+						<AbsoluteLayout x:Name="group_27"
+							 AbsoluteLayout.LayoutBounds="864,0,268,246"
+							 >
+
+
+							<AbsoluteLayout x:Name="group_23"
+								 AbsoluteLayout.LayoutBounds="0,0,268,246"
+								 >
+
+								<BoxView x:Name="rectangle_60_ek1"
+									CornerRadius="12"
+									Color="#F5F5F5"
+									AbsoluteLayout.LayoutBounds="0,0,268,246" > 
+																	<!-- Effect support coming soon for Xamarin Forms -->
+								</BoxView>
+								<Image x:Name="product_thumbnail_ek1"
+									Source="product_thumbnail_ek1.png"
+									AbsoluteLayout.LayoutBounds="0,0,268,174" />
+								<Label x:Name="golf_travel_bag"
+									FontFamily="Fira Sans"
+									FontSize="18"
+									TextColor="#3C3C3C"
+									AbsoluteLayout.LayoutBounds="15,189,160,33"
+									Text="Golf travel bag"
+								 />
+								<Label x:Name="_2020___golfy"
+									FontFamily="Fira Sans"
+									FontSize="14"
+									TextColor="#C1839F"
+									AbsoluteLayout.LayoutBounds="15,212,158,25"
+									Text="2020 | Golfy"
+								 />
+
+								<AbsoluteLayout x:Name="save_item_ek1"
+									 AbsoluteLayout.LayoutBounds="228,134,30,30"
+									 >
+
+									<BoxView x:Name="ellipse_4_ek2"
+										Opacity="0.7"
+										Color="#FFFFFF"
+										AbsoluteLayout.LayoutBounds="0,0,30,30" />
+									<Image x:Name="vector_ek29"
+										Source="vector_ek29.png"
+										AbsoluteLayout.LayoutBounds="6,8,18,15.7" />
+								</AbsoluteLayout>
+
+								<Label x:Name="___2_299"
+									FontFamily="Fira Sans"
+									FontAttributes="Bold"
+									HorizontalTextAlignment="Right"
+									FontSize="24"
+									TextColor="#3C3C3C"
+									AbsoluteLayout.LayoutBounds="169,198,93,46"
+									Text=" 2,299"
+								 />
+							</AbsoluteLayout>
+
+						</AbsoluteLayout>
+
+
+						<AbsoluteLayout x:Name="group_28"
+							 AbsoluteLayout.LayoutBounds="0,0,268,246"
+							 >
+
+
+							<AbsoluteLayout x:Name="group_24"
+								 AbsoluteLayout.LayoutBounds="0,0,268,246"
+								 >
+
+								<BoxView x:Name="rectangle_60_ek2"
+									CornerRadius="12"
+									Color="#F5F5F5"
+									AbsoluteLayout.LayoutBounds="0,0,268,246" > 
+																	<!-- Effect support coming soon for Xamarin Forms -->
+								</BoxView>
+								<Image x:Name="product_thumbnail_ek2"
+									Source="product_thumbnail_ek2.png"
+									AbsoluteLayout.LayoutBounds="0,0,268,174" />
+								<Label x:Name="pen_tablet"
+									FontFamily="Fira Sans"
+									FontSize="18"
+									TextColor="#3C3C3C"
+									AbsoluteLayout.LayoutBounds="15,189,160,33"
+									Text="Pen tablet"
+								 />
+								<Label x:Name="_2020___xp_pen"
+									FontFamily="Fira Sans"
+									FontSize="14"
+									TextColor="#C1839F"
+									AbsoluteLayout.LayoutBounds="15,212,158,25"
+									Text="2020 | XP-Pen"
+								 />
+
+								<AbsoluteLayout x:Name="save_item_ek2"
+									 AbsoluteLayout.LayoutBounds="228,134,30,30"
+									 >
+
+									<BoxView x:Name="ellipse_4_ek3"
+										Opacity="0.7"
+										Color="#FFFFFF"
+										AbsoluteLayout.LayoutBounds="0,0,30,30" />
+									<Image x:Name="vector_ek30"
+										Source="vector_ek30.png"
+										AbsoluteLayout.LayoutBounds="6,8,18,15.7" />
+								</AbsoluteLayout>
+
+								<Label x:Name="___2_899"
+									FontFamily="Fira Sans"
+									FontAttributes="Bold"
+									HorizontalTextAlignment="Right"
+									FontSize="24"
+									TextColor="#3C3C3C"
+									AbsoluteLayout.LayoutBounds="167,198,95,46"
+									Text=" 2,899"
+								 />
+							</AbsoluteLayout>
+
+						</AbsoluteLayout>
+
+
+						<AbsoluteLayout x:Name="group_29"
+							 AbsoluteLayout.LayoutBounds="288,0,268,246"
+							 >
+
+
+							<AbsoluteLayout x:Name="group_25"
+								 AbsoluteLayout.LayoutBounds="0,0,268,246"
+								 >
+
+								<BoxView x:Name="rectangle_60_ek3"
+									CornerRadius="12"
+									Color="#F5F5F5"
+									AbsoluteLayout.LayoutBounds="0,0,268,246" > 
+																	<!-- Effect support coming soon for Xamarin Forms -->
+								</BoxView>
+								<Image x:Name="product_thumbnail_ek3"
+									Source="product_thumbnail_ek3.png"
+									AbsoluteLayout.LayoutBounds="0,0,268,174" />
+								<Label x:Name="amazon_kindle"
+									FontFamily="Fira Sans"
+									FontSize="18"
+									TextColor="#3C3C3C"
+									AbsoluteLayout.LayoutBounds="15,189,160,33"
+									Text="Amazon Kindle"
+								 />
+								<Label x:Name="_2019___amazon"
+									FontFamily="Fira Sans"
+									FontSize="14"
+									TextColor="#C1839F"
+									AbsoluteLayout.LayoutBounds="15,212,158,25"
+									Text="2019 | Amazon"
+								 />
+
+								<AbsoluteLayout x:Name="save_item_ek3"
+									 AbsoluteLayout.LayoutBounds="228,134,30,30"
+									 >
+
+									<BoxView x:Name="ellipse_4_ek4"
+										Opacity="0.7"
+										Color="#FFFFFF"
+										AbsoluteLayout.LayoutBounds="0,0,30,30" />
+									<Image x:Name="vector_ek31"
+										Source="vector_ek31.png"
+										AbsoluteLayout.LayoutBounds="6,8,18,15.7" />
+								</AbsoluteLayout>
+
+								<Label x:Name="___3_999"
+									FontFamily="Fira Sans"
+									FontAttributes="Bold"
+									HorizontalTextAlignment="Right"
+									FontSize="24"
+									TextColor="#3C3C3C"
+									AbsoluteLayout.LayoutBounds="169,198,94,46"
+									Text=" 3,999"
+								 />
+							</AbsoluteLayout>
+
+						</AbsoluteLayout>
+
+					</AbsoluteLayout>
+
+				</AbsoluteLayout>
+
+				<Label x:Name="similar_products_ek1"
+					FontFamily="Fira Sans"
+					FontAttributes="Bold"
+					FontSize="18"
+					TextColor="#000000"
+					AbsoluteLayout.LayoutBounds="27,741,369,35"
+					Text="Similar products"
+				 />
+
+				<AbsoluteLayout x:Name="google_search_details_btn"
+					 AbsoluteLayout.LayoutBounds="27,660,176,40"
+					 >
+
+					<BoxView x:Name="rectangle_63"
+						CornerRadius="12"
+						Color="#FFFFFF"
+						AbsoluteLayout.LayoutBounds="0,0,180,44" />
+
+					<AbsoluteLayout x:Name="google"
+						 AbsoluteLayout.LayoutBounds="18,10,20,20"
+						 >
+
+						<Image x:Name="vector_ek32"
+							Source="vector_ek32.png"
+							AbsoluteLayout.LayoutBounds="0,0,20,20" />
+						<Image x:Name="vector_ek33"
+							Source="vector_ek33.png"
+							AbsoluteLayout.LayoutBounds="1,0,15.66,7.76" />
+						<Image x:Name="vector_ek34"
+							Source="vector_ek34.png"
+							AbsoluteLayout.LayoutBounds="1,12,15.61,7.97" />
+						<Image x:Name="vector_ek35"
+							Source="vector_ek35.png"
+							AbsoluteLayout.LayoutBounds="10,8,10,9.41" />
+					</AbsoluteLayout>
+
+					<Label x:Name="search_details"
+						FontFamily="Fira Sans"
+						FontAttributes="Bold"
+						FontSize="16"
+						TextColor="#000000"
+						AbsoluteLayout.LayoutBounds="50,11,138,30"
+						Text="Search Details"
+					 />
+				</AbsoluteLayout>
+
+
+				<AbsoluteLayout x:Name="pdt_info"
+					 AbsoluteLayout.LayoutBounds="27,622,290,19"
+					 >
+
+
+					<AbsoluteLayout x:Name="within_warranty"
+						 AbsoluteLayout.LayoutBounds="0,0,138,19"
+						 >
+
+						<Label x:Name="within_warranty_ek1"
+							FontFamily="Fira Sans"
+							FontSize="16"
+							TextColor="#4E4E4E"
+							AbsoluteLayout.LayoutBounds="0,0,129,30"
+							Text="Within Warranty"
+						 />
+						<Image x:Name="vector_ek36"
+							Source="vector_ek36.png"
+							AbsoluteLayout.LayoutBounds="122,4,16,11" />
+					</AbsoluteLayout>
+
+
+					<AbsoluteLayout x:Name="original_pkg"
+						 AbsoluteLayout.LayoutBounds="153,0,137,19"
+						 >
+
+						<Label x:Name="original_packing"
+							FontFamily="Fira Sans"
+							FontSize="16"
+							TextColor="#4E4E4E"
+							AbsoluteLayout.LayoutBounds="0,0,130,30"
+							Text="Original Packing"
+						 />
+						<Image x:Name="vector_ek37"
+							Source="vector_ek37.png"
+							AbsoluteLayout.LayoutBounds="125,3,12,12" />
+					</AbsoluteLayout>
+
+					<BoxView x:Name="seperator"
+						Color="#4E4E4E"
+						AbsoluteLayout.LayoutBounds="143,9,3,3" />
+				</AbsoluteLayout>
+
+
+				<AbsoluteLayout x:Name="message_btn"
+					 AbsoluteLayout.LayoutBounds="333,430,54,54"
+					 >
+
+					<BoxView x:Name="ellipse_41"
+						Color="#FF5A5F"
+						AbsoluteLayout.LayoutBounds="0,0,54,54" />
+					<Image x:Name="vector_ek38"
+						Source="vector_ek38.png"
+						AbsoluteLayout.LayoutBounds="16,16,22,22" />
+				</AbsoluteLayout>
+
+				<Label x:Name="make__shure___year__2020"
+					FontFamily="Fira Sans"
+					FontSize="16"
+					TextColor="#4E4E4E"
+					AbsoluteLayout.LayoutBounds="27,595,190,30"
+					Text="Make: Shure | Year: 2020"
+				 />
+				<Label x:Name="the_shure_sm7b_reigns_as_king_of_studio_recording_for_good_reason__vocal_recording_and_reproduction_is_clear_and_crisp__especially_when_recording_in_a_more___"
+					FontFamily="Fira Sans"
+					FontAttributes="Bold"
+					FontSize="14"
+					TextColor="#666666"
+					AbsoluteLayout.LayoutBounds="27,529,359,56"
+					Text="The Shure SM7B reigns as king of studio recording for good reason: vocal recording and reproduction is clear and crisp, especially when recording in a more..."
+				 />
+				<Label x:Name="___24_999"
+					FontFamily="Fira Sans"
+					FontAttributes="Bold"
+					FontSize="24"
+					TextColor="#087E8B"
+					AbsoluteLayout.LayoutBounds="27,491,106,46"
+					Text=" 24,999"
+				 />
+				<Label x:Name="shure_podcast_micro__phone"
+					FontFamily="Fira Sans"
+					FontAttributes="Bold"
+					FontSize="24"
+					TextColor="#3C3C3C"
+					AbsoluteLayout.LayoutBounds="27,426,251,75"
+					Text="Shure podcast micro-
+phone"
+				 />
+
+				<AbsoluteLayout x:Name="product_images"
+					 AbsoluteLayout.LayoutBounds="27,151,360,260"
+					 >
+
+					<Image x:Name="product_thumbnail_ek4"
+						Source="product_thumbnail_ek4.png"
+						AbsoluteLayout.LayoutBounds="740,0,360,260" />
+					<Image x:Name="product_thumbnail_ek5"
+						Source="product_thumbnail_ek5.png"
+						AbsoluteLayout.LayoutBounds="370,0,360,260" />
+					<Image x:Name="product_thumbnail_ek6"
+						Source="product_thumbnail_ek6.png"
+						AbsoluteLayout.LayoutBounds="0,0,360,260" />
+
+					<AbsoluteLayout x:Name="group_32"
+						 AbsoluteLayout.LayoutBounds="165,241,29,9"
+						 >
+
+						<BoxView x:Name="ellipse_38"
+							Color="#6A6A6A"
+							AbsoluteLayout.LayoutBounds="11,1,8,8" />
+						<BoxView x:Name="ellipse_39"
+							Color="#BDBDBD"
+							AbsoluteLayout.LayoutBounds="0,0,11,11" />
+						<BoxView x:Name="ellipse_40"
+							Color="#6A6A6A"
+							AbsoluteLayout.LayoutBounds="21,1,8,8" />
+					</AbsoluteLayout>
+
+
+					<AbsoluteLayout x:Name="group_33"
+						 AbsoluteLayout.LayoutBounds="905,241,29,9"
+						 >
+
+						<BoxView x:Name="ellipse_38_ek1"
+							Color="#6A6A6A"
+							AbsoluteLayout.LayoutBounds="0,1,8,8" />
+						<BoxView x:Name="ellipse_39_ek1"
+							Color="#BDBDBD"
+							AbsoluteLayout.LayoutBounds="20,0,11,11" />
+						<BoxView x:Name="ellipse_40_ek1"
+							Color="#6A6A6A"
+							AbsoluteLayout.LayoutBounds="10,1,8,8" />
+					</AbsoluteLayout>
+
+
+					<AbsoluteLayout x:Name="group_33_ek1"
+						 AbsoluteLayout.LayoutBounds="535,241,29,9"
+						 >
+
+						<BoxView x:Name="ellipse_38_ek2"
+							Color="#6A6A6A"
+							AbsoluteLayout.LayoutBounds="0,1,8,8" />
+						<BoxView x:Name="ellipse_39_ek2"
+							Color="#BDBDBD"
+							AbsoluteLayout.LayoutBounds="10,0,11,11" />
+						<BoxView x:Name="ellipse_40_ek2"
+							Color="#6A6A6A"
+							AbsoluteLayout.LayoutBounds="21,1,8,8" />
+					</AbsoluteLayout>
+
+				</AbsoluteLayout>
+
+				<Label x:Name="rebuy"
+					FontFamily="Dosis"
+					FontAttributes="Bold"
+					HorizontalTextAlignment="Center"
+					FontSize="32"
+					TextColor="#3C3C3C"
+					AbsoluteLayout.LayoutBounds="269,64,126,69"
+					Text="ReBuy"
+				 />
+
+				<AbsoluteLayout x:Name="back_button_ek2"
+					 AbsoluteLayout.LayoutBounds="35,64,46,46"
+					 >
+
+					<Image x:Name="vector_ek39"
+						Source="vector_ek39.png"
+						AbsoluteLayout.LayoutBounds="20,16,6.9,13.8" />
+					<BoxView x:Name="rectangle_3_ek2"
+						CornerRadius="12"
+						Color="#ffffff"
+						AbsoluteLayout.LayoutBounds="0,0,48,48" />
+				</AbsoluteLayout>
+
+
+				<AbsoluteLayout x:Name="bottom_fixed_btn"
+					 AbsoluteLayout.LayoutBounds="0,817,414,79"
+					 >
+
+
+					<AbsoluteLayout x:Name="save_item_btn"
+						 AbsoluteLayout.LayoutBounds="0,0,207,79"
+						 >
+
+						<BoxView x:Name="rectangle_61"
+							Color="#717171"
+							AbsoluteLayout.LayoutBounds="0,0,207,79" />
+						<Label x:Name="save_item_ek4"
+							FontFamily="Fira Sans"
+							HorizontalTextAlignment="Center"
+							FontSize="24"
+							TextColor="#EBEBEB"
+							AbsoluteLayout.LayoutBounds="18,25,179,53.95"
+							Text="Save item"
+						 />
+					</AbsoluteLayout>
+
+
+					<AbsoluteLayout x:Name="buy_now_btn"
+						 AbsoluteLayout.LayoutBounds="207,0,207,79"
+						 >
+
+						<BoxView x:Name="_rectangle_62"
+							Color="#FF5A5F"
+							AbsoluteLayout.LayoutBounds="0,0,207,79" />
+						<Label x:Name="buy_now"
+							FontFamily="Fira Sans"
+							FontAttributes="Bold"
+							HorizontalTextAlignment="Center"
+							FontSize="24"
+							TextColor="#EBEBEB"
+							AbsoluteLayout.LayoutBounds="52,25,112,53.95"
+							Text="Buy Now"
+						 />
+					</AbsoluteLayout>
+
+				</AbsoluteLayout>
+
+			</AbsoluteLayout>
+
+
+
+
+
+
+
+
+
+
+
+			<AbsoluteLayout x:Name="color_palette"
+				 AbsoluteLayout.LayoutBounds="45,104,580,100"
+				 >
+
+				<BoxView x:Name="__087e8b"
+					Color="#087E8B"
+					AbsoluteLayout.LayoutBounds="240,240,100,100" />
+				<BoxView x:Name="__ff5a5f"
+					Color="#FF5A5F"
+					AbsoluteLayout.LayoutBounds="240,120,100,100" />
+				<BoxView x:Name="__3c3c3c"
+					Color="#3C3C3C"
+					AbsoluteLayout.LayoutBounds="240,0,100,100" />
+				<BoxView x:Name="__f5f5f5"
+					Color="#F5F5F5"
+					AbsoluteLayout.LayoutBounds="240,-120,100,100" />
+				<BoxView x:Name="__c1839f"
+					Color="#C1839F"
+					AbsoluteLayout.LayoutBounds="240,-240,100,100" />
+			</AbsoluteLayout>
+
+		</AbsoluteLayout>
+
+		</ScrollView>
+
+	</ContentPage.Content>
+</ContentPage>

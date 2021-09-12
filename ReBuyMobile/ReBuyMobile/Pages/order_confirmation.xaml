@@ -1,0 +1,219 @@
+<ContentPage x:Class="rebuy___buy_used_products__community_.order_confirmation"
+	xmlns="http://xamarin.com/schemas/2014/forms"
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	mc:Ignorable="d"
+	Title="order_confirmation">
+	<ContentPage.Content>
+		<ScrollView>
+		<AbsoluteLayout>
+
+
+
+
+
+
+			<AbsoluteLayout x:Name="page_order_confirmation_ek1"
+				 AbsoluteLayout.LayoutBounds="0,0,414,896"
+				 >
+
+				<BoxView x:Name="_bg__order_confirmation_ek2"
+					Color="#F5F5F5"
+					AbsoluteLayout.LayoutBounds="0,0,414,896" />
+
+				<AbsoluteLayout x:Name="product_summary"
+					 AbsoluteLayout.LayoutBounds="35,591,344,124"
+					 >
+
+					<BoxView x:Name="rectangle_64_ek1"
+						CornerRadius="12"
+						Opacity="0.3"
+						Color="#078B0D"
+						AbsoluteLayout.LayoutBounds="0,0,344,124" />
+					<Image x:Name="rectangle_65_ek1"
+						Source="rectangle_65_ek1.png"
+						AbsoluteLayout.LayoutBounds="12,12,100,100" />
+					<Label x:Name="shure_podcast_micro__phone_ek2"
+						FontFamily="Fira Sans"
+						FontAttributes="Bold"
+						FontSize="20"
+						TextColor="#3C3C3C"
+						AbsoluteLayout.LayoutBounds="124,10,210,62"
+						Text="Shure podcast micro-
+phone"
+					 />
+					<Label x:Name="tracking_id__989896654"
+						FontFamily="Fira Sans"
+						FontSize="16"
+						TextColor="#4E4E4E"
+						AbsoluteLayout.LayoutBounds="124,66,177,30"
+						Text="Tracking ID: 989896654"
+					 />
+					<Label x:Name="order_id__985654841656589"
+						FontFamily="Fira Sans"
+						FontSize="16"
+						TextColor="#4E4E4E"
+						AbsoluteLayout.LayoutBounds="124,92,205,30"
+						Text="Order ID: 985654841656589"
+					 />
+				</AbsoluteLayout>
+
+
+				<AbsoluteLayout x:Name="payment_status"
+					 AbsoluteLayout.LayoutBounds="35,280,344,289"
+					 >
+
+
+					<AbsoluteLayout x:Name="payment_summary_ek1"
+						 AbsoluteLayout.LayoutBounds="0,0,344,289"
+						 >
+
+						<BoxView x:Name="rectangle_66_ek1"
+							CornerRadius="12"
+							Color="#FFFFFF"
+							AbsoluteLayout.LayoutBounds="0,0,344,289" />
+					</AbsoluteLayout>
+
+					<Label x:Name="your_payment_for___25_149_is_succesfull"
+						FontFamily="Fira Sans"
+						FontAttributes="Bold"
+						HorizontalTextAlignment="Center"
+						FontSize="36"
+						TextColor="#3C3C3C"
+						AbsoluteLayout.LayoutBounds="24,120,307,154"
+						Text="Your payment for
+ 25,149 
+is succesfull"
+					 />
+
+					<AbsoluteLayout x:Name="clarity_success_standard_solid"
+						 AbsoluteLayout.LayoutBounds="137,30,70,70"
+						 >
+
+						<Image x:Name="vector_ek44"
+							Source="vector_ek44.png"
+							AbsoluteLayout.LayoutBounds="3.89,3.89,62.22,62.22" />
+					</AbsoluteLayout>
+
+				</AbsoluteLayout>
+
+				<Label x:Name="order_confirmed"
+					FontFamily="Fira Sans"
+					FontAttributes="Bold"
+					FontSize="24"
+					TextColor="#3C3C3C"
+					AbsoluteLayout.LayoutBounds="35,225,372,48"
+					Text="Order Confirmed "
+				 />
+
+				<AbsoluteLayout x:Name="progress_indicator_ek1"
+					 AbsoluteLayout.LayoutBounds="98,149,218,30"
+					 >
+
+					<BoxView x:Name="ellipse_44_ek2"
+						Color="#FF5A5F"
+						AbsoluteLayout.LayoutBounds="0,0,40,40" />
+					<BoxView x:Name="ellipse_45_ek2"
+						Color="#FF5A5F"
+						AbsoluteLayout.LayoutBounds="94,0,40,40" />
+					<BoxView x:Name="line_14_ek2"
+						Color="#FF5A5F"
+						AbsoluteLayout.LayoutBounds="28,18,69,5" />
+					<BoxView x:Name="line_15_ek2"
+						Color="#FF5A5F"
+						AbsoluteLayout.LayoutBounds="122,18,70,5" />
+
+					<AbsoluteLayout x:Name="group_43_ek1"
+						 AbsoluteLayout.LayoutBounds="188,0,30,30"
+						 >
+
+						<BoxView x:Name="ellipse_46_ek2"
+							Color="#FF5A5F"
+							AbsoluteLayout.LayoutBounds="0,0,30,30" />
+						<BoxView x:Name="ellipse_47_ek2"
+							Color="#FF5A5F"
+							AbsoluteLayout.LayoutBounds="8,8,22.5,22.5" />
+					</AbsoluteLayout>
+
+				</AbsoluteLayout>
+
+				<Label x:Name="rebuy_ek3"
+					FontFamily="Dosis"
+					FontAttributes="Bold"
+					HorizontalTextAlignment="Center"
+					FontSize="32"
+					TextColor="#3C3C3C"
+					AbsoluteLayout.LayoutBounds="269,64,126,69"
+					Text="ReBuy"
+				 />
+
+				<AbsoluteLayout x:Name="back_button_ek5"
+					 AbsoluteLayout.LayoutBounds="35,64,46,46"
+					 >
+
+					<Image x:Name="vector_ek45"
+						Source="vector_ek45.png"
+						AbsoluteLayout.LayoutBounds="20,16,6.9,13.8" />
+					<BoxView x:Name="rectangle_3_ek5"
+						CornerRadius="12"
+						Color="#ffffff"
+						AbsoluteLayout.LayoutBounds="0,0,48,48" />
+				</AbsoluteLayout>
+
+
+				<AbsoluteLayout x:Name="go_to_home_btn"
+					 AbsoluteLayout.LayoutBounds="0,817,414,79"
+					 >
+
+					<BoxView x:Name="rectangle_62_ek3"
+						Color="#FF5A5F"
+						AbsoluteLayout.LayoutBounds="0,0,414,79" />
+					<Label x:Name="go_to_home"
+						FontFamily="Fira Sans"
+						FontAttributes="Bold"
+						HorizontalTextAlignment="Center"
+						FontSize="24"
+						TextColor="#EBEBEB"
+						AbsoluteLayout.LayoutBounds="64,25,295,54"
+						Text="Go to home"
+					 />
+				</AbsoluteLayout>
+
+			</AbsoluteLayout>
+
+
+
+
+
+
+
+
+
+			<AbsoluteLayout x:Name="color_palette"
+				 AbsoluteLayout.LayoutBounds="45,104,580,100"
+				 >
+
+				<BoxView x:Name="__087e8b"
+					Color="#087E8B"
+					AbsoluteLayout.LayoutBounds="240,240,100,100" />
+				<BoxView x:Name="__ff5a5f"
+					Color="#FF5A5F"
+					AbsoluteLayout.LayoutBounds="240,120,100,100" />
+				<BoxView x:Name="__3c3c3c"
+					Color="#3C3C3C"
+					AbsoluteLayout.LayoutBounds="240,0,100,100" />
+				<BoxView x:Name="__f5f5f5"
+					Color="#F5F5F5"
+					AbsoluteLayout.LayoutBounds="240,-120,100,100" />
+				<BoxView x:Name="__c1839f"
+					Color="#C1839F"
+					AbsoluteLayout.LayoutBounds="240,-240,100,100" />
+			</AbsoluteLayout>
+
+		</AbsoluteLayout>
+
+		</ScrollView>
+
+	</ContentPage.Content>
+</ContentPage>
