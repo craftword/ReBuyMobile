@@ -1,0 +1,14 @@
+C:\Users\craft\source\repos\ReBuyMobile\ReBuyMobile\ReBuyMobile\bin\Debug\netstandard2.0\ReBuyMobile.deps.json
+C:\Users\craft\source\repos\ReBuyMobile\ReBuyMobile\ReBuyMobile\bin\Debug\netstandard2.0\ReBuyMobile.dll
+C:\Users\craft\source\repos\ReBuyMobile\ReBuyMobile\ReBuyMobile\bin\Debug\netstandard2.0\ref\ReBuyMobile.dll
+C:\Users\craft\source\repos\ReBuyMobile\ReBuyMobile\ReBuyMobile\bin\Debug\netstandard2.0\ReBuyMobile.pdb
+C:\Users\craft\source\repos\ReBuyMobile\ReBuyMobile\ReBuyMobile\obj\Debug\netstandard2.0\ReBuyMobile.csproj.AssemblyReference.cache
+C:\Users\craft\source\repos\ReBuyMobile\ReBuyMobile\ReBuyMobile\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\craft\source\repos\ReBuyMobile\ReBuyMobile\ReBuyMobile\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\craft\source\repos\ReBuyMobile\ReBuyMobile\ReBuyMobile\obj\Debug\netstandard2.0\ReBuyMobile.AssemblyInfoInputs.cache
+C:\Users\craft\source\repos\ReBuyMobile\ReBuyMobile\ReBuyMobile\obj\Debug\netstandard2.0\ReBuyMobile.AssemblyInfo.cs
+C:\Users\craft\source\repos\ReBuyMobile\ReBuyMobile\ReBuyMobile\obj\Debug\netstandard2.0\ReBuyMobile.csproj.CoreCompileInputs.cache
+C:\Users\craft\source\repos\ReBuyMobile\ReBuyMobile\ReBuyMobile\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\craft\source\repos\ReBuyMobile\ReBuyMobile\ReBuyMobile\obj\Debug\netstandard2.0\ReBuyMobile.dll
+C:\Users\craft\source\repos\ReBuyMobile\ReBuyMobile\ReBuyMobile\obj\Debug\netstandard2.0\ref\ReBuyMobile.dll
+C:\Users\craft\source\repos\ReBuyMobile\ReBuyMobile\ReBuyMobile\obj\Debug\netstandard2.0\ReBuyMobile.pdb
